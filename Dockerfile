@@ -1,4 +1,4 @@
-FROM neunhoef/importer
+FROM neunhoef/importer:3.4
 MAINTAINER Max Neunhoeffer <max@arangodb.com>
 
 ADD [ "download", "process", "upload", "makegraph.js", "/" ]
